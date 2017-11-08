@@ -1,0 +1,37 @@
+o:Library	:@books[o:	Book:@titleI"
+book1:ET:@authoro:Author:
+@nameI"
+name1;	T:@biographyI"biography1;	To;;I"
+book2;	T;
+o;;I"
+name2;	T;I"biography2;	To;;I"
+book3;	T;
+o;;I"
+name3;	T;I"biography3;	To;;I"
+book4;	T;
+o;;I"
+name4;	T;I"biography4;	To;;I"
+book1;	T;
+o;;I"
+name1;	T;I"biography1;	To;;I"
+book2;	T;
+o;;I"
+name2;	T;I"biography2;	To;;I"
+book3;	T;
+o;;I"
+name3;	T;I"biography3;	To;;I"
+book4;	T;
+o;;I"
+name4;	T;I"biography4;	T:@orders[o:
+Order:
+@book@:@readero:Reader
+;I"Ivanov;	T:@emailI"Ivanov@i.ua;	T:
+@cityI"
+dnepr;	T:@streetI"reader1street;	T:@houseI"3;	T:
+@dateIu:	TimeiА_КЫ:offseti :	zoneI"EET;	Fo;;@;@1;Iu;iАcКЫ;i ;I"EET;	Fo;;@;@1;Iu;iАdКЫ;i ;I"EET;	Fo;;@;o;
+;I"Petrov;	T;I"Petrov@i.ua;	T;I"	lviv;	T;I"reader2street;	T;I"5;	T;Iu;iАeКЫ;i ;I"EET;	Fo;;@;@@;Iu;iАfКЫ;i ;I"EET;	Fo;;@;o;
+;I"Sidorov;	T;I"Sidorov@i.ua;	T;I"	kiev;	T;I"reader3street;	T;I"12;	T;Iu;iАgКЫ;i ;I"EET;	Fo;;@;@L;Iu;iАhКЫ;i ;I"EET;	Fo;;@;o;
+;I"Ivanov;	T;I"Ivanov@i.ua;	T;I"
+dnepr;	T;I"reader1street;	T;I"3;	T;Iu;iА╕ке;i ;I"EET;	Fo;;@;@X;Iu;iА╕ке;i ;I"EET;	Fo;;@;@X;Iu;iА╕ке;i ;I"EET;	Fo;;@ ;o;
+;I"Petrov;	T;I"Petrov@i.ua;	T;I"	lviv;	T;I"reader2street;	T;I"5;	T;Iu;iА╕ке;i ;I"EET;	Fo;;@ ;@g;Iu;iА╕ке;i ;I"EET;	Fo;;@%;o;
+;I"Sidorov;	T;I"Sidorov@i.ua;	T;I"	kiev;	T;I"reader3street;	T;I"12;	T;Iu;iА ╕ке;i ;I"EET;	Fo;;@*;@s;Iu;iА!╕ке;i ;I"EET;	F:@readers[@1@@@L@X@g@s:@authors[@	@@@@"@'
