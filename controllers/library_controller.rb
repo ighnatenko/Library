@@ -30,6 +30,25 @@ class LibraryController
     @library.authors << author
   end
 
+  def most_popular_book
+    popular_order.book
+  end
+
+  def popular_reader
+    popular_order.reader
+  end
+
+  def three_most_popular_books
+    books = {}
+
+    books_hash = @library.orders.each_with_object(Hash.new(0)) do |order, hash|
+      hash[order.book.title] += 1
+    end
+
+    books_hash.max_by { |key, value| books[key] = value }
+    books.first(3)
+  end
+
   def load_data
     @library = File.open("./src/data.txt","rb") {|f| @library = Marshal.load(f)}
   end
@@ -38,5 +57,14 @@ class LibraryController
     File.open("./src/data.txt","wb") do |file|
       Marshal.dump(@library,file)
     end
+  end
+
+  private
+  def popular_order
+    order_hash = @library.orders.each_with_object(Hash.new(0)) do |item, hash|
+      hash[item] += 1
+    end
+
+    order_hash.max_by{|_, v| v}.first
   end
 end

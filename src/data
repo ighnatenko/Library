@@ -1,10 +1,0 @@
-{
-:authors[{:idi:	nameI"Author 1:ET{;i;I"Author 2;T{;i;I"Author 3;T:
-books[{;i;I"Book 1;T{;i;I"Book 2;T{;i;I"Book 3;T{;i	;I"Book 4;T{;i
-;I"Book 5;T{;i;I"Book 6;T{;i;I"Book 7;T{;i;I"Book 8;T{;i;I"Book 9;T:biography[{:book_idi:author_idi{;i;i{;i;i{;i	;i{;i
-;i{;i;i{;i;i{;i;i{;i;i{;i;i{;i;i:readers[
-{;i:	cityI"	Kiev;T;I"Reader 1;T:
-emailI"address1@mail.com;T:streetI"Street 1;T:
-houseI"House 1;T{;i;I"
-Dnepr;T;I"Reader 2;T;I"address2@mail.com;T;I"Street 2;T;I"House 2;T{;i;I"Kharkov;T;I"Reader 3;T;I"address3@mail.com;T;I"Street 2;T;I"House 3;T{;i	;I"	Kiev;T;I"Reader 4;T;I"address4@mail.com;T;I"Street 4;T;I"House 4;T{;i	;I"	Kiev;T;I"Reader 4;T;I"address4@mail.com;T;I"Street 4;T;I"House 4;T:orders[{	;i;i:reader_idi:	dateI"2017-10-25;T{	;i;i;i;I"2017-10-26;T{	;i;i	;i;I"2017-10-27;T{	;i	;i;i;I"2017-10-28;T{	;i
-;i	;i;I"2017-10-26;T{	;i;i;i;I"2017-10-29;T{	;i;i;i;I"2017-10-30;T
