@@ -6,7 +6,7 @@ require_relative "author.rb"
 class Library
   attr_accessor :books, :orders, :readers, :authors
 
-  def initialize(books=[], orders=[], readers=[], authors=[])
+  def initialize(books = [], orders = [], readers = [], authors = [])
     @books = books
     @orders = orders
     @readers = readers

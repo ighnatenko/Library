@@ -50,12 +50,12 @@ class LibraryController
   end
 
   def load_data
-    @library = File.open("./src/data.txt","rb") {|f| @library = Marshal.load(f)}
+    @library = File.open("./src/data.txt","rb") { |f| @library = Marshal.load(f) }
   end
 
   def save_data
-    File.open("./src/data.txt","wb") do |file|
-      Marshal.dump(@library,file)
+    File.open("./src/data.txt", "wb") do |file|
+      Marshal.dump(@library, file)
     end
   end
 
@@ -65,6 +65,7 @@ class LibraryController
       hash[item] += 1
     end
 
-    order_hash.max_by{|_, v| v}.first
+    order_hash.max_by { |_, v| v }.first
   end
+
 end

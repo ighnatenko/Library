@@ -27,9 +27,9 @@ class Main
     book3   = Book.new("book3", author3)
     book4   = Book.new("book4", author4)
 
-    reader1 = Reader.new("Ivanov", "Ivanov@i.ua", "dnepr",    "reader1street", "3")
-    reader2 = Reader.new("Petrov", "Petrov@i.ua", "lviv",    "reader2street", "5")
-    reader3 = Reader.new("Sidorov", "Sidorov@i.ua", "kiev",     "reader3street", "12")
+    reader1 = Reader.new("Ivanov","Ivanov@i.ua","dnepr","reader1street","3")
+    reader2 = Reader.new("Petrov","Petrov@i.ua","lviv","reader2street","5")
+    reader3 = Reader.new("Sidorov","Sidorov@i.ua","kiev","reader3street","12")
 
     order1  = Order.new(book1, reader1)
     order2  = Order.new(book1, reader1)
@@ -41,7 +41,6 @@ class Main
 
 
     lb = LibraryController.new
-    lib = lb.load_data
 
     lb.add_author(author1)
     lb.add_author(author2)
