@@ -10,6 +10,8 @@ require 'marshal/structure'
 class LibraryController
   attr_accessor :library
 
+  FILE_PATH = "./db/data.txt"
+
   def initialize
     @library = Library.new
   end
@@ -50,11 +52,11 @@ class LibraryController
   end
 
   def load_data
-    @library = File.open("./src/data.txt","rb") { |f| @library = Marshal.load(f) }
+    File.open(FILE_PATH,"rb") { |f| @library = Marshal.load(f) }
   end
 
   def save_data
-    File.open("./src/data.txt", "wb") do |file|
+    File.open(FILE_PATH, "wb") do |file|
       Marshal.dump(@library, file)
     end
   end
